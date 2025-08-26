@@ -1,0 +1,23 @@
+{
+    "@@locale": "en",
+    "appTitle": "Islamic Companion App",
+    "@appTitle": {
+        "description": "The title of the application"
+    },
+    "welcomeMessage": "Welcome to the Islamic Companion App!",
+    "@welcomeMessage": {
+        "description": "A welcome message for the user"
+    },
+    "prayerTimesTitle": "Prayer Times",
+    "@prayerTimesTitle": {
+        "description": "Title for the Prayer Times section"
+    },
+    "quranReaderTitle": "Quran Reader",
+    "@quranReaderTitle": {
+        "description": "Title for the Quran Reader section"
+    },
+    "qiblaCompassTitle": "Qibla Compass",
+    "@qiblaCompassTitle": {
+        "description": "Title for the Qibla Compass section"
+    }
+}

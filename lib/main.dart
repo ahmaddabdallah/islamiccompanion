@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:sizer/sizer.dart';
 
 import '../core/app_export.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import '../widgets/custom_error_widget.dart';
 import 'l10n/l10n.dart';
@@ -29,7 +29,7 @@ void main() async {
 class MyApp extends StatefulWidget {
   static void setLocale(BuildContext context, Locale newLocale) {
     _MyAppState? state = context.findAncestorStateOfType<_MyAppState>();
-    state?.setLocale(newLocale);
+    state.setLocale(newLocale);
   }
 
   @override
@@ -48,10 +48,8 @@ class _MyAppState extends State<MyApp> {
   void _loadLocale() async {
     final prefs = await SharedPreferences.getInstance();
     String? languageCode = prefs.getString('language');
-    if (languageCode != null) {
-      setLocale(L10n.all.firstWhere((element) => element.languageCode == languageCode.toLowerCase(), orElse: () => L10n.all.first));
+    setLocale(L10n.all.firstWhere((element) => element.languageCode == languageCode.toLowerCase(), orElse: () => L10n.all.first));
     }
-  }
 
   void setLocale(Locale locale) {
     setState(() {
@@ -64,7 +62,11 @@ class _MyAppState extends State<MyApp> {
     return Sizer(builder: (context, orientation, screenType) {
       return MaterialApp(
         locale: _locale,
-        supportedLocales: L10n.all,
+        supportedLocales: const [
+          Locale('en'),
+          Locale('ar'),
+        ],
+
         localizationsDelegates: const [
           // AppLocalizations.delegate,
           GlobalMaterialLocalizations.delegate,
